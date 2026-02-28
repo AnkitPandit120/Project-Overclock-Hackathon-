@@ -1,1 +1,299 @@
-# Project-Overclock-Hackathon-
+# Peer-to-Peer Expense Splitter with Debt Simplification
+
+One-line project description.
+A smart platform to track shared expenses and minimize the number of transactions required to settle debts using optimization algorithms.
+
+
+# 1. Problem Statement
+
+### Problem Title
+
+Peer-to-Peer Expense Splitter with Debt Simplification
+
+### Problem Description
+
+Managing shared expenses among friends, roommates, or teams can become confusing when multiple people pay for different items. Tracking who owes whom — and how much — often leads to manual errors and unnecessary transactions.
+
+Existing solutions show balances but do not optimize settlements. Users may end up making multiple payments when a simplified solution could reduce the number of transactions.
+
+### Target Users
+
+* College students & roommates
+* Travel groups
+* Office teams
+* Event organizers
+
+### Existing Gaps
+
+* Manual calculation errors
+* Too many settlement transactions
+* Confusing debt chains
+* Lack of transparency
+* Inefficient settlement methods
+
+---
+
+## 2. Problem Understanding & Approach
+
+### Root Cause Analysis
+
+* Multiple payers create complex debt chains
+* Lack of automated simplification
+* No optimization of payment flow
+
+### Solution Strategy
+
+* Track all expenses within groups
+* Compute net balances for each user
+* Apply debt simplification algorithm
+* Suggest minimum transactions for settlement
+
+---
+
+## 3. Proposed Solution
+
+### Solution Overview
+
+A peer-to-peer platform that tracks shared expenses and simplifies debts into the minimum number of transactions using optimization techniques.
+
+### Core Idea
+
+Transform complex debt chains into simplified payments using graph-based or greedy algorithms.
+
+### Key Features
+
+* Group expense management
+* Equal & custom expense splitting
+* Automatic balance calculation
+* Debt simplification
+* Real-time dashboard
+* Secure authentication
+
+---
+
+## 4. System Architecture
+
+### High-Level Flow
+
+User → Frontend → Backend → Debt Simplification Engine → Database → Response
+
+### Architecture Description
+
+* **Frontend:** User interface for managing expenses and viewing balances
+* **Backend:** Handles business logic and API requests
+* **Debt Simplification Engine:** Computes optimal settlements
+* **Database:** Stores users, groups, and transaction data
+
+### Architecture Diagram
+
+(Add system architecture diagram image here)
+
+---
+
+## 5. Database Design
+
+### ER Diagram
+
+(Add ER diagram image here)
+
+### ER Diagram Description
+
+Entities include:
+
+* Users
+* Groups
+* Expenses
+* Transactions
+
+Relationships:
+
+* Users belong to Groups
+* Groups contain Expenses
+* Expenses generate Transactions
+
+---
+
+## 6. Dataset Selected
+
+### Dataset Name
+
+User-generated expense data
+
+### Source
+
+Application users
+
+### Data Type
+
+Structured transactional data
+
+### Selection Reason
+
+Real-time expense tracking requires live user data rather than static datasets.
+
+### Preprocessing Steps
+
+* Validate inputs
+* Normalize currency values
+* Remove duplicate entries
+
+---
+
+## 7. Model Selected
+
+### Model Name
+
+Greedy Debt Simplification Algorithm
+
+### Selection Reasoning
+
+Efficiently minimizes the number of transactions required to settle debts.
+
+### Alternatives Considered
+
+* Graph min-cash-flow algorithm
+* Linear programming approach
+
+### Evaluation Metrics
+
+* Number of transactions reduced
+* Settlement accuracy
+* Processing time
+
+---
+
+## 8. Technology Stack
+
+### Frontend
+
+* React.js / HTML / CSS / JavaScript
+
+### Backend
+
+* Node.js / Express.js
+
+### ML/AI
+
+* Optional: Spending pattern insights using Python
+
+### Database
+
+* MongoDB / MySQL
+
+### Deployment
+
+* AWS / Render / Vercel
+
+---
+
+## 9. API Documentation & Testing
+
+### API Endpoints List
+
+**Endpoint 1:** Create Group
+**Endpoint 2:** Add Expense
+**Endpoint 3:** Get Simplified Settlements
+
+### API Testing Screenshots
+
+(Add Postman / Thunder Client screenshots here)
+
+---
+
+## 10. Module-wise Development & Deliverables
+
+### Checkpoint 1: Research & Planning
+
+**Deliverables:** Problem analysis, solution design
+
+### Checkpoint 2: Backend Development
+
+**Deliverables:** APIs for expenses & groups
+
+### Checkpoint 3: Frontend Development
+
+**Deliverables:** User interface
+
+### Checkpoint 4: Algorithm Implementation
+
+**Deliverables:** Debt simplification engine
+
+### Checkpoint 5: Integration
+
+**Deliverables:** End-to-end functionality
+
+### Checkpoint 6: Deployment
+
+**Deliverables:** Live application
+
+---
+
+## 11. End-to-End Workflow
+
+1. User creates a group
+2. Members add expenses
+3. System calculates balances
+4. Debt simplification algorithm runs
+5. Users receive minimal settlement plan
+
+---
+
+## 12. Demo & Video
+
+**Live Demo Link:** (Add link)
+**Demo Video Link:** (Add link)
+**GitHub Repository:** https://github.com/ANANYA542/SAMPLE_REPO
+
+---
+
+## 13. Hackathon Deliverables Summary
+
+* Working prototype
+* Debt simplification algorithm
+* Clean UI
+* API documentation
+* Deployment link
+
+---
+
+## 14. Team Roles & Responsibilities
+
+| Member Name | Role      | Responsibilities |
+| ----------- | --------- | ---------------- |
+| Add Name    | Developer | Backend & API    |
+| Add Name    | Developer | Frontend         |
+| Add Name    | Designer  | UI/UX            |
+
+---
+
+## 15. Future Scope & Scalability
+
+### Short-Term
+
+* Mobile app support
+* Payment integration (UPI)
+
+### Long-Term
+
+* AI spending insights
+* Multi-currency support
+* Large-scale deployment
+
+---
+
+## 16. Known Limitations
+
+* Requires internet connection
+* Manual expense entry
+* No direct payment integration (current version)
+
+---
+
+## 17. Impact
+
+* Reduces financial conflicts
+* Saves time in settlements
+* Promotes transparency
+* Useful for students & teams worldwide
+
+---
