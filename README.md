@@ -6,24 +6,20 @@ A smart platform to track shared expenses and minimize the number of transaction
 
 # 1. Problem Statement
 
-### Problem Title
+ ## Peer-to-Peer Expense Splitter with Debt Simplification
 
-Peer-to-Peer Expense Splitter with Debt Simplification
+# Problem Description
+  Managing shared expenses among friends, roommates, or teams can become confusing when multiple people pay for different items. Tracking who owes whom — and how much — often leads to manual errors and unnecessary transactions.
+  Existing solutions show balances but do not optimize settlements. Users may end up making multiple payments when a simplified solution could reduce the number of transactions.
 
-### Problem Description
-
-Managing shared expenses among friends, roommates, or teams can become confusing when multiple people pay for different items. Tracking who owes whom — and how much — often leads to manual errors and unnecessary transactions.
-
-Existing solutions show balances but do not optimize settlements. Users may end up making multiple payments when a simplified solution could reduce the number of transactions.
-
-### Target Users
+# Target Users
 
 * College students & roommates
 * Travel groups
 * Office teams
 * Event organizers
 
-### Existing Gaps
+# Existing Gaps
 
 * Manual calculation errors
 * Too many settlement transactions
@@ -33,34 +29,30 @@ Existing solutions show balances but do not optimize settlements. Users may end 
 
 ---
 
-## 2. Problem Understanding & Approach
+# 2. Problem Understanding & Approach
 
-### Root Cause Analysis
-
+# Root Cause Analysis
 * Multiple payers create complex debt chains
 * Lack of automated simplification
 * No optimization of payment flow
 
-### Solution Strategy
-
+# Solution Strategy
 * Track all expenses within groups
 * Compute net balances for each user
 * Apply debt simplification algorithm
 * Suggest minimum transactions for settlement
 
----
+# 3. Proposed Solution
 
-## 3. Proposed Solution
+  # Solution Overview
+  
+  A peer-to-peer platform that tracks shared expenses and simplifies debts into the minimum number of transactions using numerical optimization techniques.
 
-### Solution Overview
+  # Core Idea
 
-A peer-to-peer platform that tracks shared expenses and simplifies debts into the minimum number of transactions using optimization techniques.
+    Transform complex debt chains into simplified payments using net balance calculations and numerical optimization algorithms.
 
-### Core Idea
-
-Transform complex debt chains into simplified payments using graph-based or greedy algorithms.
-
-### Key Features
+# Key Features
 
 * Group expense management
 * Equal & custom expense splitting
@@ -69,9 +61,8 @@ Transform complex debt chains into simplified payments using graph-based or gree
 * Real-time dashboard
 * Secure authentication
 
----
 
-## 4. System Architecture
+# 4. System Architecture
 
 ### High-Level Flow
 
@@ -85,80 +76,63 @@ User → Frontend → Backend → Debt Simplification Engine → Database → Re
 * **Database:** Stores users, groups, and transaction data
 
 ### Architecture Diagram
-
-(Add system architecture diagram image here)
-
----
+  
+  ---
 
 ## 5. Database Design
 
 ### ER Diagram
 
-(Add ER diagram image here)
+ ---
 
 ### ER Diagram Description
 
 Entities include:
 
-* Users
-* Groups
-* Expenses
-* Transactions
+  ---
 
-Relationships:
+## Relationships:
 
-* Users belong to Groups
-* Groups contain Expenses
-* Expenses generate Transactions
-
----
+ ---
 
 ## 6. Dataset Selected
 
 ### Dataset Name
 
-User-generated expense data
+---
 
 ### Source
 
-Application users
+---
 
 ### Data Type
 
-Structured transactional data
+--
 
 ### Selection Reason
 
-Real-time expense tracking requires live user data rather than static datasets.
+---
 
 ### Preprocessing Steps
 
-* Validate inputs
-* Normalize currency values
-* Remove duplicate entries
-
 ---
+
 
 ## 7. Model Selected
 
 ### Model Name
 
-Greedy Debt Simplification Algorithm
+---
 
 ### Selection Reasoning
 
-Efficiently minimizes the number of transactions required to settle debts.
+---
 
 ### Alternatives Considered
 
-* Graph min-cash-flow algorithm
-* Linear programming approach
+---
 
 ### Evaluation Metrics
-
-* Number of transactions reduced
-* Settlement accuracy
-* Processing time
 
 ---
 
@@ -166,39 +140,38 @@ Efficiently minimizes the number of transactions required to settle debts.
 
 ### Frontend
 
-* React.js / HTML / CSS / JavaScript
+* HTML / CSS / JavaScript
 
 ### Backend
 
-* Node.js / Express.js
+-----
 
 ### ML/AI
 
-* Optional: Spending pattern insights using Python
+-----
 
 ### Database
 
-* MongoDB / MySQL
+----
 
 ### Deployment
 
-* AWS / Render / Vercel
+----
 
----
 
 ## 9. API Documentation & Testing
 
 ### API Endpoints List
 
-**Endpoint 1:** Create Group
-**Endpoint 2:** Add Expense
-**Endpoint 3:** Get Simplified Settlements
+**Endpoint 1:** ---
+**Endpoint 2:** ---
+**Endpoint 3:** ----
 
 ### API Testing Screenshots
 
-(Add Postman / Thunder Client screenshots here)
+----
 
----
+
 
 ## 10. Module-wise Development & Deliverables
 
@@ -208,23 +181,23 @@ Efficiently minimizes the number of transactions required to settle debts.
 
 ### Checkpoint 2: Backend Development
 
-**Deliverables:** APIs for expenses & groups
+**Deliverables:** ---
 
 ### Checkpoint 3: Frontend Development
 
-**Deliverables:** User interface
+**Deliverables:** ----
 
 ### Checkpoint 4: Algorithm Implementation
 
-**Deliverables:** Debt simplification engine
+**Deliverables:** ----
 
 ### Checkpoint 5: Integration
 
-**Deliverables:** End-to-end functionality
+**Deliverables:** ---
 
 ### Checkpoint 6: Deployment
 
-**Deliverables:** Live application
+**Deliverables:** ---
 
 ---
 
@@ -240,9 +213,9 @@ Efficiently minimizes the number of transactions required to settle debts.
 
 ## 12. Demo & Video
 
-**Live Demo Link:** (Add link)
-**Demo Video Link:** (Add link)
-**GitHub Repository:** https://github.com/ANANYA542/SAMPLE_REPO
+**Live Demo Link:** ---
+**Demo Video Link:** ---
+**GitHub Repository:** https://github.com/AnkitPandit120/Project-Overclock-Hackathon-
 
 ---
 
@@ -258,11 +231,11 @@ Efficiently minimizes the number of transactions required to settle debts.
 
 ## 14. Team Roles & Responsibilities
 
-| Member Name | Role      | Responsibilities |
-| ----------- | --------- | ---------------- |
-| Add Name    | Developer | Backend & API    |
-| Add Name    | Developer | Frontend         |
-| Add Name    | Designer  | UI/UX            |
+| Member Name   | Role      | Responsibilities |
+| ------------- | --------- | ---------------- |
+| Ankit Pandit  | Developer | Backend & API    |
+| Harsh Maurya  | Developer | Frontend         |
+| Yash Panpaliya| Designer  | UI/UX            |
 
 ---
 
@@ -279,7 +252,6 @@ Efficiently minimizes the number of transactions required to settle debts.
 * Multi-currency support
 * Large-scale deployment
 
----
 
 ## 16. Known Limitations
 
@@ -287,13 +259,11 @@ Efficiently minimizes the number of transactions required to settle debts.
 * Manual expense entry
 * No direct payment integration (current version)
 
----
 
-## 17. Impact
+# 17. Impact
 
 * Reduces financial conflicts
 * Saves time in settlements
 * Promotes transparency
 * Useful for students & teams worldwide
 
----
