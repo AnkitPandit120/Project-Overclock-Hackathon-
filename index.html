@@ -8,13 +8,13 @@
     <!-- Add viewport meta tag for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Link external CSS file -->
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Header Section -->
+
     <header>
         <h1>💰 Expense Splitter</h1>
         <p>Simplify shared expenses with minimum transactions</p>
@@ -22,56 +22,52 @@
 
     <div class="container">
 
-        <!-- SECTION: Add Members -->
         <div class="card">
             <h2>Add Members</h2>
 
-            <!-- Input to enter member name -->
+       
             <input type="text" id="memberName" placeholder="Enter member name">
 
-            <!-- Button triggers addMember() function -->
+         
             <button onclick="addMember()">Add Member</button>
 
-            <!-- List to display members -->
+           
             <ul id="memberList"></ul>
         </div>
 
-        <!-- SECTION: Add Expense -->
+
         <div class="card">
             <h2>Add Expense</h2>
 
-            <!-- Dropdown to select who paid -->
+        
             <label for="payer">Payer</label>
             <select id="payer" title="Payer"></select>
 
-            <!-- Input for amount -->
+        
             <label>Amount</label>
             <input type="number" id="amount" placeholder="Enter amount">
 
-            <!-- Button triggers addExpense() -->
+    
             <button onclick="addExpense()">Add Expense</button>
         </div>
 
-        <!-- SECTION: Show Balances -->
+
         <div class="card">
             <h2>Balances</h2>
             <ul id="balances"></ul>
         </div>
 
-        <!-- SECTION: Simplify Debts -->
         <div class="card">
             <h2>Debt Simplification</h2>
 
-            <!-- Button to minimize transactions -->
+
             <button onclick="simplify()">Simplify Debts</button>
 
-            <!-- Settlement results -->
             <ul id="results"></ul>
         </div>
 
     </div>
 
-    <!-- Link external JavaScript -->
     <script src="script.js"></script>
 </body>
 
