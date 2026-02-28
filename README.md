@@ -66,7 +66,7 @@ A smart platform to track shared expenses and minimize the number of transaction
 
 ### High-Level Flow
 
-User → Frontend → Backend → Debt Simplification Engine → Database → Response
+User → Frontend → Backend → Database → Response
 
 ### Architecture Description
 
