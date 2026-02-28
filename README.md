@@ -72,7 +72,6 @@ User → Frontend → Backend → Database → Response
 
 * **Frontend:** User interface for managing expenses and viewing balances
 * **Backend:** Handles business logic and API requests
-* **Debt Simplification Engine:** Computes optimal settlements
 * **Database:** Stores users, groups, and transaction data
 
 ### Architecture Diagram
