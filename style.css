@@ -1,11 +1,11 @@
-/* Basic page styling */
+
 body {
     font-family: Arial, sans-serif;
     background: #f4f6f8;
     margin: 0;
 }
 
-/* Header styling */
+
 header {
     background: #2c3e50;
     color: white;
@@ -13,14 +13,14 @@ header {
     text-align: center;
 }
 
-/* Main container */
+
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
 }
 
-/* Card UI blocks */
+
 .card {
     background: white;
     padding: 15px;
@@ -29,7 +29,7 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Inputs and buttons */
+
 input,
 select,
 button {
@@ -40,7 +40,7 @@ button {
     border: 1px solid #ccc;
 }
 
-/* Button styling */
+
 button {
     background: #27ae60;
     color: white;
@@ -48,28 +48,27 @@ button {
     cursor: pointer;
 }
 
-/* Button hover effect */
+
 button:hover {
     background: #219150;
 }
 
-/* Remove bullet points */
+
 ul {
     list-style: none;
     padding: 0;
 }
 
-/* List item spacing */
+
 li {
     padding: 6px 0;
 }
 
-/* Positive balance → green */
 .balance-positive {
     color: green;
 }
 
-/* Negative balance → red */
+
 .balance-negative {
     color: red;
 }
