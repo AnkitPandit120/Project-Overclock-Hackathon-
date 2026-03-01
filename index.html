@@ -3,67 +3,55 @@
 
 <head>
     <meta charset="UTF-8">
-
-    <title>Peer-to-Peer Expense Splitter</title>
-    <!-- Add viewport meta tag for responsive design -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
+    <title>Expense Splitter</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-
-    <header>
-        <h1>💰 Expense Splitter</h1>
-        <p>Simplify shared expenses with minimum transactions</p>
-    </header>
-
     <div class="container">
 
+        <h1>💰 Expense Splitter</h1>
+
+        <!-- Members -->
         <div class="card">
-            <h2>Add Members</h2>
-
-       
-            <input type="text" id="memberName" placeholder="Enter member name">
-
-         
+            <h2>Add Member</h2>
+            <input type="text" id="memberName" placeholder="Enter name">
             <button onclick="addMember()">Add Member</button>
-
-           
             <ul id="memberList"></ul>
         </div>
 
-
+        <!-- Expense -->
         <div class="card">
             <h2>Add Expense</h2>
-
-        
             <label for="payer">Payer</label>
             <select id="payer" title="Payer"></select>
-
-        
-            <label>Amount</label>
-            <input type="number" id="amount" placeholder="Enter amount">
-
-    
+            <input type="number" id="amount" placeholder="Amount">
             <button onclick="addExpense()">Add Expense</button>
         </div>
 
-
+        <!-- Balances -->
         <div class="card">
             <h2>Balances</h2>
             <ul id="balances"></ul>
         </div>
 
+        <!-- Settlements -->
         <div class="card">
-            <h2>Debt Simplification</h2>
-
-
+            <h2>Settlements</h2>
             <button onclick="simplify()">Simplify Debts</button>
-
             <ul id="results"></ul>
+        </div>
+
+        <!-- Optional Tools -->
+        <div class="card">
+            <h2>Optional Tools</h2>
+            <button onclick="exportData()">Export Data</button>
+            <label for="importFile">Import File</label>
+            <input type="file" id="importFile" title="Import File">
+            <button onclick="importData()">Import Data</button>
+            <button onclick="resetAll()">Reset All Data</button>
         </div>
 
     </div>
