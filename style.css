@@ -1,25 +1,14 @@
-
 body {
     font-family: Arial, sans-serif;
     background: #f4f6f8;
     margin: 0;
-}
-
-
-header {
-    background: #2c3e50;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-
-.container {
-    max-width: 800px;
-    margin: auto;
     padding: 20px;
 }
 
+.container {
+    max-width: 700px;
+    margin: auto;
+}
 
 .card {
     background: white;
@@ -29,46 +18,36 @@ header {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-
 input,
 select,
 button {
     width: 100%;
     padding: 10px;
-    margin-top: 8px;
+    margin: 8px 0;
     border-radius: 6px;
     border: 1px solid #ccc;
 }
 
-
 button {
-    background: #27ae60;
+    background: #5a5aff;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-
 button:hover {
-    background: #219150;
-}
-
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-
-li {
-    padding: 6px 0;
+    background: #4a4ae0;
 }
 
 .balance-positive {
     color: green;
 }
 
-
 .balance-negative {
     color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
