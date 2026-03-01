@@ -211,9 +211,9 @@ Entities include:
 ---
 
 ## 12. Demo & Video
-
-**Live Demo Link:** ---
-**Demo Video Link:** ---
+**PPT link** https://drive.google.com/file/d/1s2lqPD3YqSKBmFkbSwWAA4gpTcO_iLqi/view?usp=sharing
+**Live Demo Link:** https://cosmic-pony-c359aa.netlify.app
+**Demo Video Link:** https://drive.google.com/file/d/1iyxHFK4Sc8rI9p9tRTNr8Cz2ql6Je54z/view?usp=sharing
 **GitHub Repository:** https://github.com/AnkitPandit120/Project-Overclock-Hackathon-
 
 ---
